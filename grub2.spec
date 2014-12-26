@@ -215,6 +215,7 @@ Patch0152: 0152-Load-arm-with-SB-enabled.patch
 Patch0153: 0153-Try-prefix-if-fw_path-doesn-t-work.patch
 Patch0154: 0154-Try-to-emit-linux16-initrd16-and-linuxefi-initrdefi-.patch
 Patch0155: 0001-Update-to-minilzo-2.08.patch
+Patch0156: apple_set_os.patch
 
 BuildRequires:  flex bison binutils python
 BuildRequires:  ncurses-devel xz-devel bzip2-devel
