@@ -1,4 +1,5 @@
 From: Fix Me <fixme@example.com>
+Subject: [PATCH] fake os to enable iGPU
 ---
  grub-core/Makefile.core.def         |  6 +++
  grub-core/commands/efi/applesetos.c | 82 +++++++++++++++++++++++++++++++++++++

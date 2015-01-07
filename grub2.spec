@@ -374,6 +374,7 @@ GRUB_MODULES+=" linux "
 GRUB_MODULES+=" backtrace usb usbserial_common "
 GRUB_MODULES+=" usbserial_pl2303 usbserial_ftdi usbserial_usbdebug "
 GRUB_MODULES+=" linuxefi multiboot2 multiboot "
+GRUB_MODULES+=" applesetos "
 %endif
 ./grub-mkimage -O %{grubefiarch} -o %{grubefiname}.orig -p /EFI/%{efidir} \
 		-d grub-core ${GRUB_MODULES}
