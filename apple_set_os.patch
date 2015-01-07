@@ -1,3 +1,4 @@
+From: Fix Me <fixme@example.com>
 ---
  grub-core/Makefile.core.def         |  6 +++
  grub-core/commands/efi/applesetos.c | 82 +++++++++++++++++++++++++++++++++++++
@@ -65,8 +66,7 @@ index 0000000..9464307
 +  void (*set_os_version) (const grub_efi_char8_t *os_version);
 +  void (*set_os_vendor) (const grub_efi_char8_t *os_vendor);
 +};
-+typedef struct grub_efi_apple_set_os_interface 
-grub_efi_apple_set_os_interface_t;
++typedef struct grub_efi_apple_set_os_interface grub_efi_apple_set_os_interface_t;
 +
 +static const grub_efi_char8_t apple_os_version[] = "Mac OS X 10.9";
 +static const grub_efi_char8_t apple_os_vendor[]  = "Apple Inc.";
